@@ -9,6 +9,7 @@ struct mascota{
 
 int id;
 int isEmpty;
+int idRaza;
 
 char nombre[128];
 int edad;
@@ -36,7 +37,7 @@ int mascota_setNombre(mascota* this,char* nombre);
  * \return int -1 .  0 todo bien
  *
  */
- int mascotas_cargarParametros(mascota* element,char edad [],char id [],char nombre[],char sexo[],char tipo[]);
+ int mascotas_cargarParametros(mascota* this,char edad [],char id [],char idRaza [] ,char nombre[],char sexo[],char tipo[]);
 
 int mascota_getNombre(mascota* this,char* nombre);
 
@@ -58,8 +59,8 @@ int mascota_getTipo(mascota* this,char* tipo);
 int mascota_nombreAformatoCorrecto(char* this);
 
 
-int mascota_imprimirMascota(mascota* element);
-
+int mascota_imprimirMascota(mascota* this);
+int mascota_setNewId(mascota* this,int id);
 
 
 

@@ -1,8 +1,7 @@
-id,name,edad,sexo,tipo
-1,Bobby,2,macho,perro
-2,Alessandra,10,hembra,perro
-3,Clemente,6,macho,perro
-4,Joy,5,hembra,gato
-5,Minette,5,macho,gato
+1,1,Bobby,2,macho,perro
+2,4,Alessandra,10,hembra,perro
+3,2,Clemente,6,macho,perro
+4,3,Joy,5,hembra,gato
+5,2,Minette,5,macho,gato
 
 

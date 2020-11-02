@@ -1,7 +1,8 @@
-#include "mascotas.h"
-#include "mascotas_list.h"
+#include "razas.h"
+#include "raza_list.h"
 #include "parser.h"
-int mascotas_list_inicializarIsEmpty(mascota* list,int len)
+
+int raza_list_inicializarIsEmpty(raza* list,int len)
 {
   int retorno = -1;
     if(list != NULL && len > 0 )
@@ -9,13 +10,13 @@ int mascotas_list_inicializarIsEmpty(mascota* list,int len)
         int i ;
         for(i = 0 ;i<len;i++)
         {
-            mascota_setisEmpty((list + i),1);
+            raza_setisEmpty((list + i),1);
         }
     }
 return retorno;
 }
 
-int mascotas_list_cargarLista(char patch[],mascota* list,int len)
+int raza_list_cargarLista(char patch[],raza* list,int len)
 {
     int retorno = -1;
     if(patch != NULL && list != NULL && len > 0)
@@ -26,7 +27,7 @@ int mascotas_list_cargarLista(char patch[],mascota* list,int len)
         if(pfile != NULL)
         {
 
-            parser_mascotaFromText(pfile,len,list);
+            parser_razaFromText(pfile,len,list);
 
         }
         fclose(pfile);
@@ -34,29 +35,18 @@ int mascotas_list_cargarLista(char patch[],mascota* list,int len)
     return retorno;
 }
 
-int mascota_list_imprimirLista(mascota* list,int len)
+int raza_list_imprimirLista(raza* list,int len)
 {
     int retorno = -1;
     if(list != NULL && len > 0)
     {
         for(int i = 0; i<len;i ++)
         {
-            mascota_imprimirMascota(list+i);
-            retorno = 0;
+            raza_imprimirRaza(list+i);
         }
     }
     return retorno;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -13,7 +13,13 @@ int main()
     llConcursantes = ll_newLinkedList();
     controller_loadFromText("buenosaires.csv",llConcursantes);
 
-    controller_printList(llConcursantes,conc_printConcursante);
+    ll_map(llConcursantes,conc_printConcursante);
+
+    ll_map(llConcursantes,conc_generarSegundaNota);
+    ll_map(llConcursantes,conc_calcularPromedio);
+
+    ll_map(llConcursantes,conc_printConcursanteConPromedio);
+
 
     return 0;
 }

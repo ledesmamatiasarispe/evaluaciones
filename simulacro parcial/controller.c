@@ -1,8 +1,8 @@
 #include "parser.h"
 #include "LinkedList.h"
 #include <stdio.h>
-#include<stdlib.h>
-
+#include <stdlib.h>
+#include "concursante.h"
 int controller_loadFromText(char* path, LinkedList* pList)
 {
     int retorno = -1 ;
@@ -47,13 +47,5 @@ int controller_loadConcursanteFromBinary(char* path, LinkedList* pList)
     return retorno;
 }
 
-int controller_printList(LinkedList *list,int (*pFunc)(void*))
-{
-    int retorno = -1;
-    if(list != NULL && pFunc != NULL)
-    {
-        retorno = 0;
-        ll_map(list,pFunc);
-    }
-    return retorno;
-}
+
+

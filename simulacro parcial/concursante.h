@@ -61,4 +61,8 @@ int conc_setNewId(concursante* this,int id);
 
 
 int conc_printConcursante(concursante *this);
+int conc_generarSegundaNota(concursante *this);
+int conc_calcularPromedio(concursante *this);
+
+int conc_printConcursanteConPromedio(concursante *this);
 #endif // CONCURSANTE_H_INCLUDED

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1606319988 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\main.c
+1606364243 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -14,23 +14,27 @@
 
 1605881932 c:\users\arisp\desktop\evaluaciones\simulacro parcial\linkedlist.h
 
-1606225583 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\controller.c
+1606364243 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\controller.c
 	"parser.h"
 	"LinkedList.h"
 	<stdio.h>
 	<stdlib.h>
+	"concursante.h"
 
-1606090890 c:\users\arisp\desktop\evaluaciones\simulacro parcial\parser.h
+1606361693 c:\users\arisp\desktop\evaluaciones\simulacro parcial\parser.h
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
 
-1606319949 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\concursantes.c
+1606361790 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\concursantes.c
 	"concursante.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1606233938 c:\users\arisp\desktop\evaluaciones\simulacro parcial\concursante.h
+1606364270 c:\users\arisp\desktop\evaluaciones\simulacro parcial\concursante.h
 
-1606231397 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\parser.c
+1606340256 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"parser.h"
@@ -47,5 +51,5 @@
 
 1604612189 c:\users\arisp\desktop\evaluaciones\simulacro parcial\utn.h
 
-1606062284 c:\users\arisp\desktop\evaluaciones\simulacro parcial\controller.h
+1606364243 c:\users\arisp\desktop\evaluaciones\simulacro parcial\controller.h
 

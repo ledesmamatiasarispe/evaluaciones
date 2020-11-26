@@ -371,3 +371,85 @@ int conc_printConcursante(concursante *this)
     return retorno;
 }
 
+int conc_printConcursanteConPromedio(concursante *this)
+{
+    int retorno = -1;
+    if(this != NULL)
+    {
+        char Nombre[128],Dni[128],FechaPresentacion[128],TemaPresentacion[128];
+        int Numeroconcursante,Anio,PuntajePrimeraRonda,puntajeSegundaRonda,promedio;
+        if(
+            conc_getNumeroconcursante(this,&Numeroconcursante) ==0 &&
+            conc_getAnioDeNacimiento(this,&Anio) ==0 &&
+            conc_getNombre(this,Nombre) ==0 &&
+            conc_getDni(this,Dni) ==0 &&
+            conc_getFechaPresentacion(this,FechaPresentacion) ==0 &&
+            conc_getTemaPresentacion(this,TemaPresentacion) ==0 &&
+            conc_getPuntajePrimeraRonda(this,&PuntajePrimeraRonda) ==0  &&
+            conc_getPuntajeSegundaRonda(this,&puntajeSegundaRonda) ==0 &&
+            conc_getPromedioPuntaje(this,&promedio) ==0
+        )
+        {
+            printf("| %10d | %10d | %10s | %10s | %10s | %40s | %10d | %10d |%10d |\n",
+                   Numeroconcursante,Anio,Nombre,Dni,FechaPresentacion,
+                   TemaPresentacion,PuntajePrimeraRonda,puntajeSegundaRonda,promedio);
+            retorno = 0;
+        }
+    }
+    return retorno;
+}
+
+int conc_generarSegundaNota(concursante *this)
+{
+    int retorno = -1;
+    if(this!= NULL )
+    {
+        if(conc_setPuntajeSegundaRonda(this,getNumeroAleatorio(0,100,0)) == 0)
+        {
+            retorno= 0;
+        }
+    }
+    return retorno;
+}
+
+int conc_calcularPromedio(concursante *this)
+{
+    int retorno = -1;
+    if(this!= NULL )
+    {
+        int primeraNota,SegundaNota;
+        if
+        (
+            conc_getPuntajePrimeraRonda(this,&primeraNota) == 0 &&
+            conc_getPuntajeSegundaRonda(this,&SegundaNota) == 0
+        )
+        {
+            int promedio;
+
+            promedio = (primeraNota+SegundaNota)/2;
+            conc_setPromedioPuntaje(this,promedio);
+            retorno = 0;
+        }
+
+
+    }
+    return retorno;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

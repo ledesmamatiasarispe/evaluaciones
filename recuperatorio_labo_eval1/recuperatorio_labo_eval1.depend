@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605878416 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\recuperatorio_labo_eval1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

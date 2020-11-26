@@ -73,10 +73,12 @@ void imprimirOpciones(char opciones[])
 
 }
 
-void imprimirProgreso(int progresoActual,int cantidadTotal)
+void display_imprimirProgreso(int progresoActual,int cantidadTotal)
 {
+
     if( progresoActual % (cantidadTotal/20) == 0 || progresoActual == cantidadTotal-2)
     {
+
         clearScreen();
         int porcentajeDeProgreso = (progresoActual*100)/cantidadTotal+1;
 
@@ -105,25 +107,42 @@ return retorno;
 
 void display_imprimirCabeceraMascota()
 {
-    printf("\n%10-s, %10-s , %10-s , %10-s , %10-s , %10-s ","Id","IdRaza","Edad","Nombre","Sexo","Tipo");
+    printf("\n%-10s | %-10s | %-10s | %-10s | %-10s | %-10s ","Id","Edad","Nombre","Sexo","Tipo","peso");
+}
+
+
+void display_imprimirCabeceraMascotaWrazaYpais()
+{
+    printf("\n%-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-15s | %-10s ","Id","nombre","raza","tipo","pais","continente","codigoDeArea","peso");
 }
 
 int display_imprimirUnaMascota(int auxId,int auxIdRaza,int auxEdad, char auxNombre[],char auxSexo[],char auxTipo[])
 {
 
     int retorno = -1;
-    if(auxid > 0 && auxIdRaza > 0 && auxEdad > 0 && auxNombre != NULL&& auxSexo != NULL&& auxTipo != NULL)
+    if(auxId > 0 && auxIdRaza > 0 && auxEdad > 0 && auxNombre != NULL&& auxSexo != NULL&& auxTipo != NULL)
     {
-        printf("\n%10d, %10d , %10d , %10s , %10s , %10s ",auxId,auxIdRaza,auxEdad,auxNombre,auxSexo,auxTipo);
+        printf("\n%10d , %10d , %10d , %10s , %10s , %10s ",auxId,auxIdRaza,auxEdad,auxNombre,auxSexo,auxTipo);
         retorno = 0;
     }
-
     return retorno;
 }
 
 
 
 
+void display_imprimirCabeceraRaza()
+{
+    printf("\n%-10s, %-10s , %-10s , %-10s  ","Id","descripcion","tamanio","pais de origen");
+}
+
+
+
+
+void display_imprimirCabeceraPais()
+{
+    printf("\n%-10s, %-10s , %-10s , %-10s  ","Id","nombre","continente","codigo Telefonico");
+}
 
 
 

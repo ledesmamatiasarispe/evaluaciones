@@ -16,4 +16,8 @@ void display_imprimirUnCharVariasVeces(int caracter, int cantidad);
 void imprimirProgreso(int progresoActual,int cantidadTotal);
 
 void imprimirOpciones(char opciones[]);
+int display_GetInt(char mensaje[],char pregunta[],char mensajeError[],int max,int min,int intentos);
+void display_imprimirCabeceraMascota();
+void display_imprimirCabeceraPais();
+void display_imprimirCabeceraRaza();
 #endif // DISPLAY_H_INCLUDED

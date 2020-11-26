@@ -35,18 +35,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="controler.h" />
-		<Unit filename="controller.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="controller.h" />
 		<Unit filename="display.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="display.h" />
-		<Unit filename="listasEstaticas.c">
+		<Unit filename="etipo.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="listasEstaticas.h" />
+		<Unit filename="etipo.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -54,22 +50,19 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="mascotas.h" />
-		<Unit filename="mascotas_list.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="mascotas_list.h" />
 		<Unit filename="mascotas_raza.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="mascotas_raza.h" />
+		<Unit filename="pais.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pais.h" />
 		<Unit filename="parser.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="parser.h" />
-		<Unit filename="raza_list.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="raza_list.h" />
 		<Unit filename="razas.c">
 			<Option compilerVar="CC" />
 		</Unit>

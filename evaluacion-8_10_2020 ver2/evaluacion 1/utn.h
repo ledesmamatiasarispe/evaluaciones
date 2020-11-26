@@ -33,5 +33,6 @@ int esUnNombre(char str[]);
 int getStringName(char mensaje[],char input[]);
 int getValidNames(char requestMessage[],char errorMessage[], char errorMessageLenght[],char input[], int maxLenght,int attemps);
 
+int utn_nombreAformatoCorrecto(char* this);
 #endif // UTN_H_INCLUDED
 

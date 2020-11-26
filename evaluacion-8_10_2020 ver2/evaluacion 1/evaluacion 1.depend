@@ -1,94 +1,129 @@
 # depslib dependency file v1.0
-1604286961 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\main.c
+1605793679 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"mascotas.h"
 	"razas.h"
-	"controller.h"
-	"raza_list.h"
-	"mascotas_list.h"
+	"controler.h"
+	"mascotas_raza.h"
+	"utn.h"
+	"display.h"
+	"pais.h"
 
-1604286745 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas.c
+1605794219 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas.c
 	"mascotas.h"
 	<ctype.h>
 
-1604269332 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas.h
+1605793736 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"pais.h"
+	"etipo.h"
+
+1604196101 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\listasestaticas.c
+
+1604378036 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\controller.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
 
-1604196101 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\listasestaticas.c
-
-1604196842 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\controller.c
-
 1604198915 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\listasestaticas.h
 
-1604197167 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\controller.h
+1604580428 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\controller.h
 
-1604286961 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas_list.c
-	"mascotas.h"
-	"mascotas_list.h"
-	"parser.h"
+1604447827 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas_list.c
 
-1604271501 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas_list.h
+1604447772 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas_list.h
 
-1603927358 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\utn.c
+1604378036 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\utn.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<string.h>
 	"utn.h"
 
-1601599524 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\utn.h
+1604378000 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\utn.h
 
-1604272172 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\parser.c
+1605793460 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\parser.c
 	<stdio.h>
 	<stdlib.h>
-	"mascotas.h"
-	"razas.h"
-	"mascotas_list.h"
-	"utn.h"
+	"parser.h"
 
-1604264974 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\parser.h
+1604581651 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\parser.h
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
 	"mascotas.h"
 	"razas.h"
+	"utn.h"
+	"pais.h"
 
-1604286139 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\display.c
+1605783786 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\display.c
 	<stdio.h>
 	"display.h"
 	"utn.h"
 
-1604265509 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\display.h
+1604581479 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\display.h
 
-1604286975 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\controler.c
+1605782413 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\controler.c
 	<stdio.h>
 	<stdlib.h>
 	"mascotas.h"
-	"listasEstaticas.h"
-	"controller.h"
-	"mascotas_list.h"
+	"razas.h"
+	"controler.h"
+	"mascotas_raza.h"
 	"utn.h"
 	"display.h"
 
-1604277882 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\razas.c
-	"razas.h"
+1605781179 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\razas.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
+	"display.h"
+	"mascotas.h"
+	"razas.h"
+	"pais.h"
+	"utn.h"
+	"parser.h"
 
-1604272735 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\razas.h
+1605781157 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\razas.h
+	"pais.h"
 
-1604277807 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\raza_list.c
+1604447726 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\raza_list.c
 	"razas.h"
 	"raza_list.h"
 	"parser.h"
 
-1604268473 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\raza_list.h
+1604457575 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\raza_list.h
+	"pais.h"
 
-1604281694 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas_raza.c
-	"razas.h"
+1605793702 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas_raza.c
+	"mascotas_raza.h"
+
+1605793679 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\mascotas_raza.h
 	"mascotas.h"
+	"razas.h"
+	"pais.h"
+
+1605763568 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\pais.c
+	"pais.h"
+	<ctype.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"razas.h"
+	"display.h"
+
+1604547927 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\pais.h
+
+1604580430 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\controler.h
+
+1605791322 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\etipo.h
+
+1605793410 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020 ver2\evaluacion 1\etipo.c
+	<string.h>
+	"etipo.h"
+	<stdio.h>
+	<stdlib.h>
 

@@ -321,6 +321,7 @@ int getValidInt(char requestMessage[],char errorMessage[], int* input,int lowLim
 }
 
 
+
 /**
  * \brief Solicita un string
  * \param requestMessage Es el mensaje a ser mostrado para solicitar el dato
@@ -455,7 +456,7 @@ void clearStdin(void)
  */
 void pause(void)
 {
-    getChar("");
+    system("pause");
 }
 
 /**
@@ -553,5 +554,36 @@ int getValidNames(char requestMessage[],char errorMessage[], char errorMessageLe
         break;
     }
     return retorno;
+}
+
+
+int utn_nombreAformatoCorrecto(char* this)
+{
+    if(this != NULL)
+    {
+        int i;
+        for(i=0; *(this+i) != '\0';i++)
+        {
+            if(i == 0)/* la primer letra la transformo en mayuscula */
+            {
+               *this = toupper(*this);
+            }else
+             {
+                *(this+i) = tolower(*(this+i));/* en el caso contrario la transformo en minuscula*/
+             }
+
+
+            if( *(this + i) != ' ' && (*(this + i) <'a' || *(this + i) > 'z') && (*(this + i) <'A' || *(this + i) > 'Z'))
+            {
+                *(this+i) = ' ';/* si hay un caracter raro lo transformo en espacio*/
+            }
+
+            if( *(this+i-1) == ' ')
+            {
+                *(this+i) =toupper(*(this+i)); /* si antes hay un espacio lo transformo en mayuscula */
+            }
+        }
+    }
+return 0;
 }
 

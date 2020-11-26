@@ -1,5 +1,7 @@
 id,descripcion,tamanio,paisDeOrigen
-1,siames,chico,tailandia
-2,doberman,grande,alemania
-3,persa,mediano,persia
-4,pastor,grande,belgica
+1,siames,chico,5
+2,doberman,grande,2
+3,persa,mediano,3
+4,pastor,grande,4
+5,dogo,grande,1
+6,pastor,mediano,2

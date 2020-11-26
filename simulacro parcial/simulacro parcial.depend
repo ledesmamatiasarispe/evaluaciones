@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1606319988 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"concursante.h"
+	"controller.h"
+
+1605963577 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1605881932 c:\users\arisp\desktop\evaluaciones\simulacro parcial\linkedlist.h
+
+1606225583 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\controller.c
+	"parser.h"
+	"LinkedList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1606090890 c:\users\arisp\desktop\evaluaciones\simulacro parcial\parser.h
+
+1606319949 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\concursantes.c
+	"concursante.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1606233938 c:\users\arisp\desktop\evaluaciones\simulacro parcial\concursante.h
+
+1606231397 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"LinkedList.h"
+	"concursante.h"
+	"utn.h"
+
+1604612189 source:c:\users\arisp\desktop\evaluaciones\simulacro parcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1604612189 c:\users\arisp\desktop\evaluaciones\simulacro parcial\utn.h
+
+1606062284 c:\users\arisp\desktop\evaluaciones\simulacro parcial\controller.h
+

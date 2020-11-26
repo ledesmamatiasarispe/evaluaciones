@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1602773242 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"mascotasYRaza.h"
+	"paises.h"
+
+1602768821 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\animales.h
+	"stdio.h"
+	"stdlib.h"
+
+1602769943 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\raza.h
+	"stdio.h"
+	"stdlib.h"
+
+1602773482 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\mascotasyraza.h
+	"animales.h"
+	"raza.h"
+	"paises.h"
+
+1602722462 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	<ctype.h>
+
+1602722197 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\utn.h
+
+1602769943 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\raza.c
+	"raza.h"
+	<string.h>
+
+1602769943 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\animales.c
+	"animales.h"
+	"utn.h"
+	<string.h>
+
+1602773374 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\mascotasyraza.c
+	"mascotasYRaza.h"
+
+1602772737 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\control.c
+	"control.h"
+
+1602732576 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\control.h
+
+1602767949 source:c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\paises.c
+	"paises.h"
+	"stdio.h"
+	"stdlib.h"
+
+1602767618 c:\users\arisp\desktop\evaluaciones\evaluacion-8_10_2020\paises.h
+
